@@ -1,24 +1,25 @@
-function contactoComponent(el) {
-  const contactoEl = document.createElement("div");
-  contactoEl.innerHTML = `
-  <section class="form">
-  <h5 class="form__title">Escribime</h5>
-  <div class="form__container">
-    <div class="fieldset">
-      <label for="name" class="label">NOMBRE</label>
-      <input type="text" class="input-text" id="name" />
+function contactComponent(el) {
+  const contactEl = document.createElement("div");
+  contactEl.innerHTML = `
+  <section class="contact-section">
+    <h3 class="contact__title">Escribime</h3>
+    <div class="contact__container">
+      <div class="fieldset">
+        <label for="name" class="label">NOMBRE</label>
+        <input type="text" class="input" />
+      </div>
+      <div class="fieldset">
+        <label for="email" class="label">EMAIL</label>
+        <input type="text" class="input" />
+      </div>
+      <div class="fieldset">
+        <label for="message" class="label">MENSAJE</label>
+        <textarea name="message" class="textarea"></textarea>
+      </div>
+      <button class="contact__button">Enviar</button>
     </div>
-    <div class="fieldset">
-      <label for="email" class="label">EMAIL</label>
-      <input type="text" id="email" class="input-text" />
-    </div>
-    <div class="fieldset">
-      <label for="message" class="label">MENSAJE</label>
-      <textarea name="message" id="message" class="textarea"></textarea>
-    </div>
-    <button class="form__button">Enviar</button>
-  </div>
-  </section>`;
+  </section>
+  `;
 
-  el.appendChild(contactoEl);
+  el.appendChild(contactEl);
 }
