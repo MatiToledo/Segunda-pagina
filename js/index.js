@@ -47,7 +47,8 @@ function main() {
     }
   });
   headerComponent(document.querySelector(".header-component"));
-  contactComponent(document.querySelector(".contact-section"));
+  contactComponent(document.querySelector(".contact-component"));
+  footerComponent(document.querySelector(".footer-component"));
 }
 
 main();

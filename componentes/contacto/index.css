@@ -1,5 +1,18 @@
 .contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #141414;
+}
+@media (min-width: 960px) {
+  .contact-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 116px 0;
+    align-items: flex-start;
+  }
 }
 .contact__title {
   margin: 0;
@@ -8,8 +21,21 @@
   text-align: center;
   font-size: 32px;
 }
+@media (min-width: 960px) {
+  .contact__title {
+    padding: 0;
+    padding-right: 77px;
+    font-size: 48px;
+  }
+}
 .contact__container {
   padding: 0 20px;
+  min-width: 335px;
+}
+@media (min-width: 960px) {
+  .contact__container {
+    min-width: 375px;
+  }
 }
 .fieldset {
   display: flex;
