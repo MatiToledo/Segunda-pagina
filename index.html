@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pagina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./componentes/header/index.css" />
+    <link rel="stylesheet" href="./componentes/contacto/index.css" />
+    <link rel="stylesheet" href="./componentes/footer/index.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- JAVASCRIPT -->
+    <script async src="./componentes/header/index.js"></script>
+    <script async src="./componentes/contacto/index.js"></script>
+    <script async src="./componentes/footer/index.js"></script>
+    <script async src="./js/index.js"></script>
+  </head>
+  <body>
+    <section class="welcome">
+      <section class="header-component"></section>
+      <div class="welcome__content">
+        <h1 class="welcome__title">Hola!</h1>
+        <p class="welcome__p">Soy Matías</p>
+      </div>
+    </section>
+    <section class="presentation">
+      <img class="presentation__img" src="./imagenes/retrato.png" />
+      <div class="presentation__container">
+        <h2 class="presentation__title">Soy Matías</h2>
+        <p class="presentation__text">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+      </div>
+    </section>
+    <section class="service-section">
+      <h3 class="service__title">Mis servicios</h3>
+      <div class="service-content"></div>
+    </section>
+    <template id="service-card-template">
+      <div class="service-card">
+        <img class="service-img" />
+        <h4 class="service-card-title">Hola</h4>
+        <p class="service-card-text"></p>
+      </div>
+    </template>
+    <section class="contact-section"></section>
+    <section class="footer-section"></section>
+  </body>
+</html>

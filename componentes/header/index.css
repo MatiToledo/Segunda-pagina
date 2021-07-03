@@ -1,0 +1,68 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 24px;
+}
+.logo {
+  width: 150px;
+  height: 45px;
+}
+.burguer__open {
+  width: 50px;
+  height: 40px;
+}
+@media (min-width: 960px) {
+  .burguer__open {
+    display: none;
+  }
+}
+
+.burguer__window {
+  position: absolute;
+  background-color: #161616;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.burguer__close {
+  position: absolute;
+  top: 37px;
+  right: 37px;
+}
+.burguer__content {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.burguer__a {
+  font-family: "Montserrat";
+  font-size: 48px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.header__a-container {
+  display: none;
+}
+@media (min-width: 960px) {
+  .header__a-container {
+    display: flex;
+    min-width: 500px;
+    justify-content: space-between;
+  }
+}
+
+.header__a {
+  font-family: "Poppins";
+  font-size: 24px;
+  color: #ffffff;
+  text-decoration: none;
+}

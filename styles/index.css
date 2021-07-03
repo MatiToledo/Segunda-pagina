@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat";
+  color: #ffffff;
+  margin: 0;
+}
+
+.welcome {
+  height: 100vh;
+  background-image: url(../imagenes/welcome.png);
+  background-size: cover;
+}
+@media (min-width: 960px) {
+  .welcome {
+    height: 700px;
+    background-image: url(../imagenes/welcome-d.png);
+    background-size: cover;
+  }
+}
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+.welcome__title {
+  margin: 0px;
+  font-size: 48px;
+}
+.welcome__p {
+  margin: 0;
+  font-size: 32px;
+}
+
+.presentation {
+  padding: 55px 32px 120px 32px;
+  background-color: #141414;
+}
+@media (min-width: 960px) {
+  .presentation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+}
+.presentation__img {
+  display: none;
+}
+@media (min-width: 960px) {
+  .presentation__img {
+    display: inherit;
+    width: 380px;
+    height: 380px;
+  }
+  .presentation__container {
+    min-width: 487px;
+    max-width: 751px;
+    padding: 0 50px;
+  }
+}
+
+.presentation__title,
+.presentation__text {
+  margin: 0;
+}
+.presentation__title {
+  text-align: center;
+  margin-bottom: 46px;
+  font-size: 32px;
+}
+.presentation__text {
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.service-section {
+  color: #2c2c2c;
+}
+
+.service__title {
+  text-align: center;
+  font-size: 32px;
+}
+.service-content {
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: column-reverse;
+}
+@media (min-width: 960px) {
+  .service-content {
+    flex-direction: row-reverse;
+  }
+}
+
+.service-card {
+  text-align: center;
+  padding: 0 57px;
+}
+.service-img {
+  width: 138px;
+  height: 128px;
+}
+
+.service-card-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  padding-top: 19px;
+  padding-bottom: 7px;
+}
+.service-card-text {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+  padding-bottom: 100px;
+}
