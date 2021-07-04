@@ -28,12 +28,12 @@
     font-size: 48px;
   }
 }
-.contact__container {
+.contact__form {
   padding: 0 20px;
   min-width: 335px;
 }
 @media (min-width: 960px) {
-  .contact__container {
+  .contact__form {
     min-width: 375px;
   }
 }
