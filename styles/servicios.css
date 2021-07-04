@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: #000000;
+}
+@media (min-width: 960px) {
+  .main {
+    background: linear-gradient(
+      107.17deg,
+      #958c40 29.35%,
+      rgba(156, 0, 210, 0.8) 78.73%
+    );
+  }
+}
+.main__title {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  padding: 100px 0;
+  color: #ffffff;
+  margin: 0;
+}
+@media (min-width: 960px) {
+  .main__title {
+    text-align: start;
+    padding: 200px 0 303px 86px;
+  }
+}
+
+.services-section {
+  background-color: #000000;
+  padding: 0 42px;
+  text-align: center;
+}
+@media (min-width: 960px) {
+  .services-section {
+    padding: 0;
+  }
+}
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 960px) {
+  .services-content {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.services-card {
+  padding-bottom: 60px;
+  max-width: 500px;
+  font-family: "Poppins";
+  color: #ffffff;
+}
+@media (min-width: 960px) {
+  .services-card {
+    padding: 100px 60px;
+  }
+}
+
+.services-card-title {
+  margin: 15px 0 0 0;
+  font-weight: 700;
+  font-size: 24px;
+}
+.services-card-text {
+  font-weight: 400;
+  font-size: 16px;
+}
+.services-card-link {
+  color: #ffffff;
+}

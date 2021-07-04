@@ -6,5 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <!-- STYLES -->
+  <link rel="stylesheet" href="./componentes/header/index.css" />
+  <link rel="stylesheet" href="./componentes/footer/index.css" />
+  <link rel="stylesheet" href="./styles/servicios.css" />
+  <!-- JAVASCRIPT -->
+  <script defer src="./componentes/header/index.js"></script>
+  <script defer src="./componentes/footer/index.js"></script>
+  <script defer src="./js/servicios.js"></script>
+  <body>
+    <section class="main">
+      <section class="header-component"></section>
+      <h1 class="main__title">Servicios</h1>
+    </section>
+    <section class="services-section">
+      <div class="services-content"></div>
+    </section>
+    <template id="services-card-template">
+      <div class="services-card">
+        <img class="services-img" />
+        <h4 class="services-card-title">Hola</h4>
+        <p class="services-card-text"></p>
+        <a class="services-card-link" href="https://apx.school">Ver más</a>
+      </div>
+    </template>
+    <section class="footer-component"></section>
+  </body>
 </html>
