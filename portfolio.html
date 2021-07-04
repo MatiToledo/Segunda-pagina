@@ -4,7 +4,38 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./componentes/header/index.css" />
+    <link rel="stylesheet" href="./componentes/footer/index.css" />
+    <link rel="stylesheet" href="./styles/portfolio.css" />
+    <!-- JAVASCRIPT -->
+    <script defer src="./componentes/header/index.js"></script>
+    <script defer src="./componentes/footer/index.js"></script>
+    <script defer src="./js/portfolio.js"></script>
   </head>
-  <body></body>
+  <body>
+    <section class="main">
+      <section class="header-component"></section>
+      <h1 class="main__title">Portfolio</h1>
+    </section>
+    <section class="portfolio-section">
+      <div class="portfolio-content"></div>
+    </section>
+    <template id="portfolio-card-template">
+      <div class="portfolio-card">
+        <img class="portfolio-img" />
+        <h4 class="portfolio-card-title">Hola</h4>
+        <p class="portfolio-card-text"></p>
+        <a class="portfolio-card-link" href="https://apx.school">Ver más</a>
+      </div>
+    </template>
+    <section class="footer-component"></section>
+  </body>
 </html>

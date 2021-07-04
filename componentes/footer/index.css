@@ -11,11 +11,11 @@
     align-items: center;
   }
 }
-.logo {
+.logo-footer {
   margin-bottom: 42px;
 }
 @media (min-width: 960px) {
-  .logo {
+  .logo-footer {
     margin: 0px;
   }
 }
