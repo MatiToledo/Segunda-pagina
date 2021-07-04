@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  background-color: #000;
+}
+@media (min-width: 960px) {
+  .main {
+    background: linear-gradient(
+      107.17deg,
+      #408195 29.35%,
+      rgba(0, 210, 135, 0.8) 78.73%
+    );
+  }
+}
+
+.main__container {
+  display: inherit;
+}
+@media (min-width: 960px) {
+  .main__container {
+    display: flex;
+    justify-content: center;
+    padding-top: 170px;
+  }
+}
+.main___tile {
+  font-family: "Montserrat";
+  font-weight: 700;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+}
+@media (min-width: 960px) {
+  .main___tile {
+    margin: 0;
+    padding-right: 70px;
+  }
+}
+
+.contact-section {
+  background-color: black;
+}
+@media (min-width: 960px) {
+  .contact-section {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+.contact__title {
+  display: none;
+}
+
+.contact__container {
+  color: #ffffff;
+  padding: 0 20px;
+  min-width: 335px;
+}
+@media (min-width: 960px) {
+  .contact__container {
+    min-width: 375px;
+  }
+}
+
+.contact__button {
+  margin: 40px 0 190px 0;
+}
+@media (min-width: 960px) {
+  .contact__button {
+    margin: 40px 0 178px 0;
+  }
+}
